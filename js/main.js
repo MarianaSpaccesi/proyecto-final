@@ -160,7 +160,7 @@ function inicializar(){
 
     }
 
-//Se encarga de mostrar el carrito en la web
+//Se encarga de mostrar el carrito 
 function mostrarCarrito(){
     const carritoAlmacenado = Object.assign(Carrito.prototype,JSON.parse(sessionStorage.getItem("carrito")));
     if(carritoAlmacenado.cantidad === 0){
